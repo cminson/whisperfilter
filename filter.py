@@ -10,11 +10,12 @@
 #   CONFIG00.JSON //json list of all talks with attributes (from the app, or something similar)
 #   ERROR_CORRECTIONS //list of known error words and their corrections
 #   ./data    // directory where all data is kept
-#       raw     // the raw output from Whisper       
-#       text    // fixed paragraphed text from raw
-#       html    // formatted HTML output
-#       pdf     // pdf output
+#       raw     // the raw output .txt files from Whisper       
+#       text    // error-corrected text from raw
+#       html    // formatted HTML output from text
+#       pdf     // pdf output from html
 #       template    // the HTML template
+#       css         // style sheets for HTML
 #
 # INSTRUCTIONS:
 #
