@@ -16,6 +16,14 @@
 #       pdf     // pdf output
 #       template    // the HTML template
 #
+# INSTRUCTIONS:
+#
+#   Put the raw text output files from whisper into ./data/raw.
+#   Execute ./filter.py
+#
+#   Cleaned text output will be in ./data/text 
+#   HTML output will be in ./data/html
+#   PDF output will be in ./data/pdf 
 #
 
 import os
